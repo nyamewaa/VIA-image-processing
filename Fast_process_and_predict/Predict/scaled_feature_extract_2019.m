@@ -1,3 +1,9 @@
+%Code to extract color and texture features 
+%Use to extract color and texture from cervix images 
+%Written by Mercy N. Asiedu
+%see color_feature_fun and haralick_feature_fun for additional info on
+%color features
+%Last updated 04/13/2019
 folder='X:\Mercy\Image processing\VIA image processing\Processing_without_ectopion\Combined_sites\normal\';
 cd 'X:\Mercy\Image processing\VIA image processing\Processing_without_ectopion\Combined_sites\normal'
 dirlist = [dir('*.tif');dir('*.jpg');dir('*.png')];
